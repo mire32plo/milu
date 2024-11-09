@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
     <title>Flower</title>
+    <style>
+        .boton-reproducir {
+            position: fixed;
+            top: 0;
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+        }
+    </style>
+
   </head>
   <body class="container">
-    <button 
-     onclick="playAudio()">presiona</button>
+    <button class="boton-reproducir" onclick="playAudio()">presiona</button>
     <audio id="myAudio" src="sound/amarte.mp3.mp3"></audio>
     <h1 class="titulo">Estas flores amarillas son un reflejo de la alegría que traes a mi vida. <br> <br>
       Gracias por iluminar mis días con tu presencia.</h1>
